@@ -1,0 +1,334 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-10-31T05:18:14.920Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3714024,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.ScenarioName(Scenario)"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Scenario 1",
+        "description": "",
+        "id": "login-feature--admin-area-demo--feature-1;scenario-1",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: unknown error: cannot get automation extension\nfrom unknown error: page could not be found: chrome-extension://aapnijgdinlhnhlmodcfapnahmbfebeb/_generated_background_page.html\n  (Session info: chrome\u003d77.0.3865.120)\n  (Driver info: chromedriver\u003d2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform\u003dWindows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: \u00273.11.0\u0027, revision: \u0027e59cfb3\u0027, time: \u00272018-03-11T20:26:55.152Z\u0027\nSystem info: host: \u0027RAJIV\u0027, ip: \u0027192.168.30.2\u0027, os.name: \u0027Windows 8\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.2\u0027, java.version: \u00271.8.0_171\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.24.417431 (9aea000394714d..., userDataDir: C:\\Users\\Rajiv\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, takesHeapSnapshot: true, takesScreenshot: true, version: 77.0.3865.120, webStorageEnabled: true}\nSession ID: 2652d0e504168b38ece71f6694e11197\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:836)\r\n\tat baseUtil.Base.openBrowser(Base.java:58)\r\n\tat stepDefinition.StepDefinition.user_is_launching_admin_demo_url(StepDefinition.java:29)\r\n\tat ✽.user is launching admin demo url(file:src/test/resources/features/test.feature:5)\r\n",
+              "duration": 32129431919,
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "user is launching admin demo url",
+            "match": {
+              "location": "StepDefinition.user_is_launching_admin_demo_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1595084,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user is able to login successfully with valid \"admin@yourstore.com\" and \"admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin@yourstore.com",
+                  "offset": 47
+                },
+                {
+                  "val": "admin",
+                  "offset": 73
+                }
+              ],
+              "location": "StepDefinition.user_is_able_to_login_successfully_with_valid_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4328965,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user is on DashBoard",
+            "match": {
+              "location": "StepDefinition.user_is_on_DashBoard()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 881359,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "user is successfully logout",
+            "match": {
+              "location": "StepDefinition.user_is_successfully_logout()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-10-31T05:18:47.731Z",
+        "before": [
+          {
+            "result": {
+              "duration": 759910,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.ScenarioName(Scenario)"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Scenario 2",
+        "description": "",
+        "id": "login-feature--admin-area-demo--feature-1;scenario-2",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: unknown error: cannot get automation extension\nfrom unknown error: page could not be found: chrome-extension://aapnijgdinlhnhlmodcfapnahmbfebeb/_generated_background_page.html\n  (Session info: chrome\u003d77.0.3865.120)\n  (Driver info: chromedriver\u003d2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform\u003dWindows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: \u00273.11.0\u0027, revision: \u0027e59cfb3\u0027, time: \u00272018-03-11T20:26:55.152Z\u0027\nSystem info: host: \u0027RAJIV\u0027, ip: \u0027192.168.30.2\u0027, os.name: \u0027Windows 8\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.2\u0027, java.version: \u00271.8.0_171\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.24.417431 (9aea000394714d..., userDataDir: C:\\Users\\Rajiv\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, takesHeapSnapshot: true, takesScreenshot: true, version: 77.0.3865.120, webStorageEnabled: true}\nSession ID: 748ee88c93ae6aa0c387c8903d9d255d\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:836)\r\n\tat baseUtil.Base.openBrowser(Base.java:58)\r\n\tat stepDefinition.StepDefinition.user_is_launching_admin_demo_url(StepDefinition.java:29)\r\n\tat ✽.user is launching admin demo url(file:src/test/resources/features/test.feature:13)\r\n",
+              "duration": 19985509961,
+              "status": "failed"
+            },
+            "line": 13,
+            "name": "user is launching admin demo url",
+            "match": {
+              "location": "StepDefinition.user_is_launching_admin_demo_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 930965,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "user is able to login successfully with valid \"admin@yourstore.com\" and \"admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin@yourstore.com",
+                  "offset": 47
+                },
+                {
+                  "val": "admin",
+                  "offset": 73
+                }
+              ],
+              "location": "StepDefinition.user_is_able_to_login_successfully_with_valid_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 672245,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "user is on DashBoard",
+            "match": {
+              "location": "StepDefinition.user_is_on_DashBoard()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 666686,
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "user is successfully logout",
+            "match": {
+              "location": "StepDefinition.user_is_successfully_logout()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Login Feature- Admin area demo -Feature 1",
+    "description": "",
+    "id": "login-feature--admin-area-demo--feature-1",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/test.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-10-31T05:19:10.883Z",
+        "before": [
+          {
+            "result": {
+              "duration": 756061,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.ScenarioName(Scenario)"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Scenario 3",
+        "description": "",
+        "id": "yahoo-login-feature--2;scenario-3",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "user is launching yahoo url carsguide",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 889484,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "user is able to login successfully with valid \"admin@yourstore.com\" and \"admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin@yourstore.com",
+                  "offset": 47
+                },
+                {
+                  "val": "admin",
+                  "offset": 73
+                }
+              ],
+              "location": "StepDefinition.user_is_able_to_login_successfully_with_valid_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "user is on yahoo home page",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 855701,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user is successfully logout",
+            "match": {
+              "location": "StepDefinition.user_is_successfully_logout()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-10-31T05:19:54.094Z",
+        "before": [
+          {
+            "result": {
+              "duration": 744943,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.ScenarioName(Scenario)"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Scenario 4",
+        "description": "",
+        "id": "yahoo-login-feature--2;scenario-4",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "user is launching yahoo url carsguide",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1516399,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "user is able to login successfully with valid \"admin@yourstore.com\" and \"admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin@yourstore.com",
+                  "offset": 47
+                },
+                {
+                  "val": "admin",
+                  "offset": 73
+                }
+              ],
+              "location": "StepDefinition.user_is_able_to_login_successfully_with_valid_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "user is on yahoo home page",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1270936,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "user is successfully logout",
+            "match": {
+              "location": "StepDefinition.user_is_successfully_logout()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Yahoo Login Feature -2",
+    "description": "",
+    "id": "yahoo-login-feature--2",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/yahooTesting.feature",
+    "tags": []
+  }
+]
