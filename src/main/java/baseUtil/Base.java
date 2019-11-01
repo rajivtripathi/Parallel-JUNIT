@@ -19,7 +19,7 @@ public class Base {
     try{
 
 		System.out.println(" ---test base initiaized ---");	
-		File src = new File("./src/test/resources/Config/config.properties");
+		File src = new File(".//src//test//resources//Config//config.properties");
 		FileInputStream fs = new FileInputStream(src);	
 		prop = new Properties();
 		prop.load(fs); 
@@ -41,7 +41,7 @@ public class Base {
     System.out.println("---Driver value--"+driver);
 			if (mybrowser.equalsIgnoreCase("chrome"))
 			
-		{ 	 System.setProperty("webdriver.chrome.driver", "./src/test/resources/chromedriver.exe");
+		{ 	 System.setProperty("webdriver.chrome.driver", ".//src//test//resources//chromedriver.exe");
 			    driver = new ChromeDriver(); 
 			    System.out.println("---Driver value--"+driver);
 			    
@@ -59,8 +59,8 @@ public class Base {
 		driver.manage().deleteAllCookies();
 		System.out.println(" ----browser lanched-----");
 		driver.get(prop.getProperty("url"));
-		Thread.sleep(8000);
-		System.out.println(" browser maximized");
+
+		System.out.println("---browser maximized---");
 		} 
 
 

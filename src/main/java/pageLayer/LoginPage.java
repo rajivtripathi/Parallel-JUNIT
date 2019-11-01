@@ -27,11 +27,12 @@ public class LoginPage extends Base {
  WebElement login;
 
 
- public void Login(String username, String pwd) {
+ public LoginPage Login(String username, String pwd) {
 	 
 	 email.sendKeys(username);
 	 password.sendKeys(pwd);
-	 login.click();	 
+	 login.click();	
+	 return this;
 	 
  }
 
