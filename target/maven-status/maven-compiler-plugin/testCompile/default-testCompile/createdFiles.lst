@@ -1,0 +1,3 @@
+parallel\StepDefinition.class
+parallel\RunCucumberIT.class
+parallel\CopyOfRunCucumberIT.class

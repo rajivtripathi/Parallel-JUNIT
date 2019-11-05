@@ -7,15 +7,15 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features = "src/test/resources/features",
+		features = "src/test/resources/features/test2.feature",
         glue = "parallel",	
         monochrome= true,
         dryRun=false,
-		plugin = {"pretty", "html:test-output/cucumber-htmlreport", "json:test-output/cucumber-report.json"}
+		plugin = {"pretty", "html:test-output2/cucumber-htmlreport", "json:test-output2/cucumber-report.json"}
 	)
          
         
-public class TestRunner {
+public class CopyOfRunCucumberIT {
 	
 	
 	

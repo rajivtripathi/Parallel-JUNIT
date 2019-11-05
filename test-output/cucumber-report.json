@@ -3,184 +3,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2019-11-01T04:20:42.438Z",
+        "start_timestamp": "2019-11-04T03:20:12.268Z",
         "before": [
           {
             "result": {
-              "duration": 3319732,
-              "status": "passed"
-            },
-            "match": {
-              "location": "StepDefinition.ScenarioName(Scenario)"
-            }
-          }
-        ],
-        "line": 3,
-        "name": "Scenario 1",
-        "description": "",
-        "id": "login-feature--admin-area-demo--feature-1;scenario-1",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 19365832892,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "user is launching admin demo url",
-            "match": {
-              "location": "StepDefinition.user_is_launching_admin_demo_url()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 4530161963,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "user is able to login successfully with valid \"admin@yourstore.com\" and \"admin\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "admin@yourstore.com",
-                  "offset": 47
-                },
-                {
-                  "val": "admin",
-                  "offset": 73
-                }
-              ],
-              "location": "StepDefinition.user_is_able_to_login_successfully_with_valid_and(String,String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 76974,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "user is on DashBoard",
-            "match": {
-              "location": "StepDefinition.user_is_on_DashBoard()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[contains(text(),\u0027Logout\u0027)]\"}\n  (Session info: chrome\u003d78.0.3904.70)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027RAJIV\u0027, ip: \u0027192.168.30.2\u0027, os.name: \u0027Windows 8\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.2\u0027, java.version: \u00271.8.0_171\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.70, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\\Users\\Rajiv\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51640}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: e2948f23f54a20e8aa607a5a3e42d5a3\n*** Element info: {Using\u003dxpath, value\u003d//*[contains(text(),\u0027Logout\u0027)]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy16.click(Unknown Source)\r\n\tat pageLayer.DashBoard.logout(DashBoard.java:25)\r\n\tat parallel.StepDefinition.user_is_successfully_logout(StepDefinition.java:56)\r\n\tat ✽.user is successfully logout(file:src/test/resources/features/test.feature:8)\r\n",
-              "duration": 15096427878,
-              "status": "failed"
-            },
-            "line": 8,
-            "name": "user is successfully logout",
-            "match": {
-              "location": "StepDefinition.user_is_successfully_logout()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2019-11-01T04:21:21.451Z",
-        "before": [
-          {
-            "result": {
-              "duration": 212534,
-              "status": "passed"
-            },
-            "match": {
-              "location": "StepDefinition.ScenarioName(Scenario)"
-            }
-          }
-        ],
-        "line": 11,
-        "name": "Scenario 2",
-        "description": "",
-        "id": "login-feature--admin-area-demo--feature-1;scenario-2",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 9203041598,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "user is launching admin demo url",
-            "match": {
-              "location": "StepDefinition.user_is_launching_admin_demo_url()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 12560757975,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "user is able to login successfully with valid \"admin@yourstore.com\" and \"admin\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "admin@yourstore.com",
-                  "offset": 47
-                },
-                {
-                  "val": "admin",
-                  "offset": 73
-                }
-              ],
-              "location": "StepDefinition.user_is_able_to_login_successfully_with_valid_and(String,String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 66283,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "user is on DashBoard",
-            "match": {
-              "location": "StepDefinition.user_is_on_DashBoard()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[contains(text(),\u0027Logout\u0027)]\"}\n  (Session info: chrome\u003d78.0.3904.70)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027RAJIV\u0027, ip: \u0027192.168.30.2\u0027, os.name: \u0027Windows 8\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.2\u0027, java.version: \u00271.8.0_171\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.70, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\\Users\\Rajiv\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51771}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 88a7350aaf8dd33fa53aeedea64a8c98\n*** Element info: {Using\u003dxpath, value\u003d//*[contains(text(),\u0027Logout\u0027)]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy16.click(Unknown Source)\r\n\tat pageLayer.DashBoard.logout(DashBoard.java:25)\r\n\tat parallel.StepDefinition.user_is_successfully_logout(StepDefinition.java:56)\r\n\tat ✽.user is successfully logout(file:src/test/resources/features/test.feature:16)\r\n",
-              "duration": 15029434983,
-              "status": "failed"
-            },
-            "line": 16,
-            "name": "user is successfully logout",
-            "match": {
-              "location": "StepDefinition.user_is_successfully_logout()"
-            },
-            "keyword": "And "
-          }
-        ]
-      }
-    ],
-    "name": "Login Feature- Admin area demo -Feature 1",
-    "description": "",
-    "id": "login-feature--admin-area-demo--feature-1",
-    "keyword": "Feature",
-    "uri": "file:src/test/resources/features/test.feature",
-    "tags": []
-  },
-  {
-    "line": 1,
-    "elements": [
-      {
-        "start_timestamp": "2019-11-01T04:20:42.437Z",
-        "before": [
-          {
-            "result": {
-              "duration": 3321015,
+              "duration": 9204447,
               "status": "passed"
             },
             "match": {
@@ -197,7 +24,7 @@
         "steps": [
           {
             "result": {
-              "duration": 22944333449,
+              "duration": 36453593535,
               "status": "passed"
             },
             "line": 5,
@@ -209,7 +36,7 @@
           },
           {
             "result": {
-              "duration": 1019338089,
+              "duration": 8228755557,
               "status": "passed"
             },
             "line": 6,
@@ -231,7 +58,7 @@
           },
           {
             "result": {
-              "duration": 42335,
+              "duration": 105626,
               "status": "passed"
             },
             "line": 7,
@@ -243,9 +70,8 @@
           },
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[contains(text(),\u0027Logout\u0027)]\"}\n  (Session info: chrome\u003d78.0.3904.70)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027RAJIV\u0027, ip: \u0027192.168.30.2\u0027, os.name: \u0027Windows 8\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.2\u0027, java.version: \u00271.8.0_171\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.70, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\\Users\\Rajiv\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51640}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: e2948f23f54a20e8aa607a5a3e42d5a3\n*** Element info: {Using\u003dxpath, value\u003d//*[contains(text(),\u0027Logout\u0027)]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy16.click(Unknown Source)\r\n\tat pageLayer.DashBoard.logout(DashBoard.java:25)\r\n\tat parallel.StepDefinition.user_is_successfully_logout(StepDefinition.java:56)\r\n\tat ✽.user is successfully logout(file:src/test/resources/features/yahooTesting.feature:8)\r\n",
-              "duration": 25034220648,
-              "status": "failed"
+              "duration": 9781392256,
+              "status": "passed"
             },
             "line": 8,
             "name": "user is successfully logout",
@@ -257,11 +83,11 @@
         ]
       },
       {
-        "start_timestamp": "2019-11-01T04:21:31.451Z",
+        "start_timestamp": "2019-11-04T03:21:06.755Z",
         "before": [
           {
             "result": {
-              "duration": 389148,
+              "duration": 1158467,
               "status": "passed"
             },
             "match": {
@@ -278,7 +104,7 @@
         "steps": [
           {
             "result": {
-              "duration": 16512632342,
+              "duration": 30113637112,
               "status": "passed"
             },
             "line": 13,
@@ -290,7 +116,7 @@
           },
           {
             "result": {
-              "duration": 16059151777,
+              "duration": 20891389754,
               "status": "passed"
             },
             "line": 14,
@@ -312,7 +138,7 @@
           },
           {
             "result": {
-              "duration": 55593,
+              "duration": 82533,
               "status": "passed"
             },
             "line": 15,
@@ -324,7 +150,7 @@
           },
           {
             "result": {
-              "duration": 9632587851,
+              "duration": 8140741992,
               "status": "passed"
             },
             "line": 16,
@@ -341,7 +167,7 @@
     "description": "",
     "id": "login-feature--admin-area-demo--feature-2",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/yahooTesting.feature",
+    "uri": "file:src/test/resources/features/test2.feature",
     "tags": []
   }
 ]
